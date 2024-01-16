@@ -26,7 +26,7 @@ def get_img_info(img_p):
             counter1 += 1
 
     print(list)
-    print(counter1)
+    print(f"Кол-во точек на картинке: {counter1}")
 
 if __name__ == "__main__":
     img_p = "E:\Rozoviy_goose-main\krr.jpg"
