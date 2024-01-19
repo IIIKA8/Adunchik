@@ -1,5 +1,5 @@
-from Arduino.funnctions.file_chooser import choose_image
-from Arduino.funnctions.image_info import get_img_info
+from Arduino.functions.file_chooser import choose_image
+from Arduino.functions.image_info import get_img_info
 
 if __name__ == "__main__":
     image_path = choose_image()
